@@ -158,9 +158,8 @@ h1{
     text-align: center;
     margin-top: 9vh;
     color: black;
-    
 }
-.higlight{
+h1 .higlight{
     color: orangered;
 }
 .controls{
@@ -261,7 +260,8 @@ footer nav ul li a{
     background-color: black;
     border: none;
     color: white;
-    padding: 0.1vh;
+    padding: 0vh;
+    margin: 0;
     /* padding-bottom: 0.1vh; */
     font-size: 1vh;
     cursor: pointer;
