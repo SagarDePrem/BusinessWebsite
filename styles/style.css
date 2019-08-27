@@ -180,8 +180,8 @@ h1 .higlight{
 /* ***************carousel***************************/
 .products{
     height: 84vh;
-    padding-top:16vh;
-    width: 100%;
+    padding:16vh 5% 0 5%;
+    width: 90%;
     background: black;
     color: #fff;
 }
@@ -190,14 +190,15 @@ h1 .higlight{
 /* ******carousel*********************************** */
 
 .services{
-    padding-top: 16vh;
+    /* padding-top: 16vh; */
+    padding:16vh 5% 0 5%;
     height: 84vh;
-    width: 100%;
+    width: 90%;
 }
 .testimonials{
-    padding-top: 16vh;
+    padding:16vh 5% 0 5%;
     height: 84vh;
-    width: 100%;
+    width: 90%;
     background: black;
     color: #fff;
 }
@@ -211,6 +212,9 @@ footer{
     font-size: 70%;
     display: grid;
     grid-template-columns: 50% 25% 25%;
+}
+footer form{
+    font-size: 2uh;
 }
 .about, .socials{
     /* width: 25%; */
@@ -242,11 +246,29 @@ footer nav ul li a{
 }
 .salutation{
     width:25%;
+    /* padding: 75%; */
     height: 3vh;
 }
 .name{
     width: 60%;
     height: 3vh;
+}
+.email{
+    width: 100%;
+    height: 3vh;
+}
+fieldset{
+    width: 60%;
+    margin:0 20%;
+    font-size: smaller;
+}
+.salutation option{
+    font-size: smaller;
+}
+.salutation 
+.message{
+    width: 60%;
+    height: 10vh;
 }
 .copyright{
     width:100%;
@@ -255,6 +277,16 @@ footer nav ul li a{
     text-align: center;
     padding-bottom: 2vh;
 }
+input[name]{
+    height: 4vh;
+    font-size: smaller;
+}
+option{
+    font-size: 1vh;
+    width: 3vh;
+    height: 5vh;
+}
+
 /* *****************************buttons************ */
 .btn {
     background-color: black;
@@ -313,6 +345,18 @@ footer nav ul li a{
         width: 100%;
         display: block;
     } */
+    footer {
+        display: list-item;
+    }
+    footer nav h1{
+        text-align: center;
+    }
+    footer nav{
+        padding: 0 30%;
+        width: 40%;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
 }
 .greetings{
     font-size: 6.5vh;
