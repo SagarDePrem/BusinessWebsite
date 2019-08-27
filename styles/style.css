@@ -355,7 +355,7 @@ input[name]{
 .greetings{
     font-size: 6.5vh;
     animation: emerge;
-    animation-delay: 0s;
+    animation-delay: 1s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
