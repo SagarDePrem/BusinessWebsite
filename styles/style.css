@@ -157,8 +157,11 @@ main{
 h1{
     text-align: center;
     margin-top: 9vh;
-    color: red;
+    color: black;
     
+}
+.higlight{
+    color: orangered;
 }
 .controls{
     width: 10%;
@@ -342,8 +345,8 @@ footer nav ul li a{
     background:#25d366 ;      
 }
 .fa {
-    padding: 2vh;
-    font-size: 3vh;
+    padding: 1vh;
+    font-size: 3.5vh;
     width: 3vh;
     text-align: center;
     text-decoration: none;
