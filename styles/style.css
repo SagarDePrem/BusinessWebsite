@@ -113,13 +113,14 @@ header{
 body{
     background: #fff;
     margin: 0;
+    padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .content{
     top: 8vh;
 }
 main{
-    width:100vw;
+    /* width:100vw; */
     /* padding: 5%; */
     text-align: justify;
     /* height: 92vh; */
@@ -154,6 +155,23 @@ main{
     background-repeat: no-repeat;
     background-size: cover; */
 }
+/* .carousel{
+    display: flex;
+    margin: 0 0%;
+    width: 100%;
+} */
+.carousel-item{
+    width:27%;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    display: inline-block;
+    align-self: centerl;
+}
+.carousel-item h1{
+    color:orangered;
+
+}
 h1{
     text-align: center;
     margin-top: 9vh;
@@ -179,8 +197,10 @@ h1 .higlight{
 }
 /* ***************carousel***************************/
 .products{
+    
     height: 84vh;
-    padding:16vh 5% 0 5%;
+    padding:16vh  5% 0 5%;
+    margin: 0 auto;
     width: 90%;
     background: black;
     color: #fff;
@@ -194,6 +214,7 @@ h1 .higlight{
     padding:16vh 5% 0 5%;
     height: 84vh;
     width: 90%;
+    margin: 0 auto;
 }
 .testimonials{
     padding:16vh 5% 0 5%;
@@ -201,7 +222,8 @@ h1 .higlight{
     width: 90%;
     background: black;
     color: #fff;
-}
+    margin: 0 auto;
+    
 footer{
     height: 42vh;
     display: flex;
@@ -250,11 +272,11 @@ footer nav ul li a{
     height: 3vh;
 }
 .name{
-    width: 60%;
+    width: 80%;
     height: 3vh;
 }
 .email{
-    width: 100%;
+    width: 80%;
     height: 3vh;
 }
 fieldset{
@@ -266,7 +288,7 @@ fieldset{
     font-size: smaller;
 }
 .message{
-    width: 60%;
+    width: 80%;
     height: 10vh;
 }
 .copyright{
