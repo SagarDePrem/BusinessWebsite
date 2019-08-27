@@ -173,6 +173,7 @@ h1{
     color: #fff;
 }
 
+
 /* ******carousel*********************************** */
 
 .services{
@@ -256,3 +257,59 @@ footer nav ul li a{
   .btn:hover {
     background-color: RoyalBlue;
   }
+
+@media only screen and (min-width: 150px) and (max-width: 530px){
+    .subHeader{
+        display:none;
+        width: 0;
+    }
+    .logo{
+        width:100%;
+        margin: 0 auto:
+    }
+    .logo img{
+        width:40%;
+        margin:0 ;
+        padding:0 30%;
+
+    }
+    .mainHeader{
+        /* height: 16vh;
+        display: inline-block; */
+        font-size: 2vh;
+        width: 80%;
+        padding: 0 10%;
+        /* background: black;
+        position: fixed;
+        top:8%;
+        left:0;
+        color: orangered;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        box-shadow: 0.5vh 1vh 1vh orangered; */
+    }
+    /* .mainHeader ul{
+        width: 100%;
+    }
+    .mainHeader ul li{
+        width: 50%;
+    }
+    .mainHeader ul li a{
+        width: 100%;
+        display: block;
+    } */
+}
+.greetings{
+    font-size: 6.5vh;
+    animation: emerge;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+@keyframes emerge{
+    0% {opacity: 0; }
+    100% {opacity: 1; }
+}
