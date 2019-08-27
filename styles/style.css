@@ -265,7 +265,6 @@ fieldset{
 .salutation option{
     font-size: smaller;
 }
-.salutation 
 .message{
     width: 60%;
     height: 10vh;
@@ -280,11 +279,6 @@ fieldset{
 input[name]{
     height: 4vh;
     font-size: smaller;
-}
-option{
-    font-size: 1vh;
-    width: 3vh;
-    height: 5vh;
 }
 
 /* *****************************buttons************ */
