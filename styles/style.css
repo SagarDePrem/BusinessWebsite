@@ -258,18 +258,20 @@ footer nav ul li a{
 }
 /* *****************************buttons************ */
 .btn {
-    background-color: white;
+    background-color: black;
     border: none;
-    color: black;
-    padding: 12px 16px;
-    font-size: 16px;
+    color: white;
+    padding: 0.1vh;
+    /* padding-bottom: 0.1vh; */
+    font-size: 1vh;
     cursor: pointer;
+    border-radius: 50%;
   }
   
   /* Darker background on mouse-over */
-  .btn:hover {
+  /* .btn:hover {
     background-color: RoyalBlue;
-  }
+  } */
 
 @media only screen and (min-width: 150px) and (max-width: 530px){
     .subHeader{
