@@ -1,5 +1,9 @@
 body{
     font-size: 3vh;
+    height: 100%;
+}
+html{
+    height: 100%;
 }
 header{
     z-index: 1;
@@ -132,6 +136,10 @@ main{
     background-size: cover;
     background-image: url(../images/titan-aerospace-drone.jpeg);
     opacity: 0.7;
+    background-attachment: fixed;
+    /* transform-origin: center center 0; */
+    /* transform: translateZ(-1px) scale(1); */
+    z-index: -1;
 }
 .landing h1{
     padding-left: 40%;
@@ -279,50 +287,6 @@ optgroup{
     margin: 0 auto;
     vertical-align: middle;
 }
-@media only screen and (min-width: 150px) and (max-width: 425px){
-    .subHeader{
-        display: none;
-        width: 0;
-    }
-    .landing h1{
-        padding: 0;
-        margin-top: 25vh;
-    }
-    header{
-        width: 100%;
-    }
-    .logo{
-        width:100%;
-        padding: 0;
-    }
-    .logo img{
-        width:50%;
-        margin:0 auto;
-        padding:0 25%;
-
-    }
-    .mainHeader{
-        font-size: 2vh;
-        width: 80%;
-        padding: 0 10%;
-    }
-    .content{
-        width:100%;
-        overflow: hidden;
-    }
-    footer {
-        display: list-item;
-    }
-    footer nav h1{
-        text-align: center;
-    }
-    footer nav{
-        padding: 0 30%;
-        width: 40%;
-        margin-bottom: 2vh;
-        text-align: center;
-    }
-}
 .greetings{
     font-size: 6.5vh;
     animation: emerge;
@@ -367,4 +331,49 @@ optgroup{
 }
 .fa:hover {
     opacity: 0.7;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 425px){
+    .subHeader{
+        display: none;
+        width: 0;
+    }
+    .landing h1{
+        padding: 0;
+        margin-top: 25vh;
+    }
+    header{
+        width: 100%;
+    }
+    .logo{
+        width:100%;
+        padding: 0;
+    }
+    .logo img{
+        width:50%;
+        margin:0 auto;
+        padding:0 25%;
+
+    }
+    .mainHeader{
+        font-size: 2vh;
+        width: 80%;
+        padding: 0 10%;
+    }
+    .content{
+        width:100%;
+        overflow: hidden;
+    }
+    footer {
+        display: list-item;
+    }
+    footer nav h1{
+        text-align: center;
+    }
+    footer nav{
+        padding: 0 30%;
+        width: 40%;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
 }
