@@ -360,6 +360,9 @@ optgroup{
         width: 80%;
         padding: 0 10%;
     }
+    .mainHeader ul li a{
+        font-size: 85%;
+    }
     .content{
         width:100%;
         overflow: hidden;
@@ -375,5 +378,14 @@ optgroup{
         width: 40%;
         margin-bottom: 2vh;
         text-align: center;
+    }
+    .carousel-item{
+        width:90%;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: inline-block;
+        align-self: center;
+        font-size: 70%;
     }
 }
